@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Marvel Hero Search</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/theme.css" />
+    <script defer src="js/md5.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="search">
+        <button class="heros__button">Heros</button>
+        <button class="comics__button">Comics</button>
+        <form id="searchForm" class="search__form">
+          <input
+            id="heroName"
+            name="heroName"
+            placeholder="Enter your hero"
+            class="search__input"
+          />
+          <button type="submit" class="search__button">Search</button>
+        </form>
+      </div>
+      <div>
+        <div class="results"></div>
+        <div class="pagination">
+          <button
+            class="pagination__button pagination__button-prev"
+            type="button"
+          >
+            Prev
+          </button>
+          <button
+            class="pagination__button pagination__button-next"
+            type="button"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

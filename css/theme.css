@@ -1,0 +1,115 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: #ebebeb;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.search {
+  padding: 2rem 1rem;
+}
+
+.search__form {
+  margin: 0;
+  width: 100%;
+  display: flex;
+}
+
+.search__input {
+  flex: 1;
+  font-size: 1.6rem;
+  padding: 0 2rem;
+}
+
+.search__button {
+  width: 100px;
+  padding: 2rem;
+  text-align: center;
+  background: crimson;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-left: 1rem;
+  border: none;
+}
+
+.search__button:hover {
+  opacity: 1;
+}
+.heros__button, .comics__button{
+  width: 85px;
+  border-radius: 5px;
+  text-align: center;
+  background: crimson;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.5s;;
+  border: none;
+}
+
+.heros__button:hover, .comics__button:hover{
+  opacity: 1;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.results__item {
+  width: 25%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.results__item-image {
+  width: 100%;
+  height: 300px;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+.results__item-image:hover {
+  opacity: 1;
+}
+
+.results__item-description {
+  width: 100%;
+  display: none;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination__button {
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  margin: 2rem;
+  background: crimson;
+  border: none;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+.pagination__button:hover {
+  opacity: 1;
+}
+
+.pagination__button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
